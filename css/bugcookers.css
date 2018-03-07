@@ -18,6 +18,11 @@ h1,
     font-family: 'Gloria Hallelujah', cursive;
     line-height: 0;
     font-size: 2rem;
+    font-weight: 700;
+}
+
+.h1 {
+    line-height: 0;
 }
 
 h2 {
@@ -29,6 +34,7 @@ h2 {
 
 .bannierehaut {
     margin-top: 2rem;
+    opacity: 0.5;
 }
 
 section {
