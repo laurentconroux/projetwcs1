@@ -21,27 +21,43 @@
 <body>
 
     <header>
-        	<div class="bandeauhaut">
-            <img src="../images/bienvenue.jpg" alt="bienvenu chez BugCookers">
-            <h1>Bienvenu chez Bug Cookers</h1>
-        	</div>
-        <nav>
-            <ul>
-                <li>Accueil</li>
-                <li>Menu</li>
-                <li>Photos</li>
-                <li>Notre histoire</li>
-                <li>Contacts</li>
-            </ul>
-        </nav>
+        <div class="container">
+            <nav class="navbar navbar-expand-sm navbar-dark bgclr-03 fixed-top">
+                <a class="navbar-brand d-sm-none" href="index.html">Bug Cookers</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav nav-fill mr-auto">
+                        <li class="nav-item active  radiusse bgclr-01"><a class="nav-link" href="index.html">Accueil<span class="sr-only">(current)</span></a></li>
+                        <li class="nav-item"><a class="nav-link" href="menu.html">Menu</a></li>
+                        <li class="nav-item"><a class="nav-link" href="gallerie.html">Photos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="notrehistoire.html">Nous</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contacts.html">Contacts</a></li>
+                    </ul>
+
+                    <form class="form-inline my-2 my-lg-0 d-flex d-sm-none d-xl-inline">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Chercher" aria-label="Search">
+                        <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Chercher</button>
+                    </form>
+                </div>
+            </nav>
+        </div>
+
+        <img src="http://via.placeholder.com/1920x450" class="bannierehaut img-fluid" alt="bienvenu chez BugCookers">
+        <h1 class="text-center clr-01">Bienvenu<span class="h1 d-none d-sm-inline-flex clr-01">&nbsp;chez Bug Cookers</span></h1>
+
     </header>
     
 		<section class="histoire">
-		<h2>Notre Histoire</h2>
-		<div class="container">			
-		
+		<div class="container">	
+            
 		<div class="row">
-        		<div class="col-xs-12  col-sm-6  col-md-3"> <img src="http://via.placeholder.com/250x250" alt="image à definir"/>	
+        		<div class="col-xs-12  col-sm-12  col-md-12">
+                    <h2>Notre Histoire</h2>
+            </div>  
+            
+            
+		<div class="row">
+        		<div class="col-xs-12  col-sm-6  col-md-6"> <img class="image-fluid"src="images/jonathan-iloveimg-resized.png" alt="image à definir"/>	
         				<h3>Jonathan Plantey</h3>
 						<p>Ayant passé toute sa jeunesse a Lyon, il y a également fait ses études pour ainsi devenir développeur web de profession.
 						Il se retrouve en 2011, devant une pinte de bière, sur la terrasse ensoleillée d’un café,
@@ -54,11 +70,14 @@
     					confesse Jonathan Plantey, cofondateur de Bug Cookers .</p>        		
         		</div>
         		
-	        		<div class="col-xs-12  col-sm-6  col-md-3"> <img src="http://via.placeholder.com/250x250" alt="image à definir"/>
+	        		<div class="col-xs-12  col-sm-6  col-md-6"> <img src="images/laetitia.png" alt="image à definir"/>
         			<h3>Laetitia Varela</h3>
 					<p>Après avoir effectué toute ma scolarité de petite enfance et primaire au Gabon, où je suis née, j’ai obtenu mon bac en France. Formée au management et à la communication, j’ai travaillé dans le secteur de la restauration collective en secteur hospitalier, aux côtés de nutritionnistes. 
 Passionnée par la nutrition bio et écologique, j’ai rejoins une entreprise de vente par correspondance spécialisées dans les préparations à base d’insectes. J’y ai développé mes connaissances et des contacts avec les meilleurs producteurs. 
-Ma rencontre avec Jonathan a révélé mon envie de faire découvrir en personne les bienfaits  des insectes à un plus grand nombre...</p>        		
+Ma rencontre avec Jonathan a révélé mon envie de faire découvrir en personne les bienfaits  des insectes à un plus grand nombre..
+                        <br/>
+                        <br/>
+                        </p>        		
         		</div>
         		
       </div>
