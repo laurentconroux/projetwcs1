@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Montserrat:400,700');
+
+html {
+    font-size: 1rem;
+}
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    position: relative;
+    top: -1.1em;
+}
+
+h1,
+.h1 {
+    font-family: 'Gloria Hallelujah', cursive;
+    line-height: 0;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.h1 {
+    line-height: 0;
+}
+
+h2 {
+    font-family: 'Gloria Hallelujah', cursive;
+    margin-top: 0.3rem;
+    margin-bottom: 0.5em;
+    font-size: 1.2rem;
+}
+
+.spacer {
+    margin-bottom: 56px;
+}
+
+.bannierehaut {
+    opacity: 0.5;
+}
+
+section {
+    padding-top: 0.8rem;
+}
+
+/* couleur titres et fonds de boutons actifs (orange) */
+
+.radiusse {
+    border-radius: 0.25rem;
+}
+
+.clr-01 {
+    color: rgba(255, 84, 10, 100);
+}
+
+.bgclr-01 {
+    background-color: rgba(255, 84, 10, 100);
+}
+
+/* couleur fond des sections et articles (vert clair) */
+
+.bgclr-02 {
+    background-color: rgba(173, 212, 92, 100);
+}
+
+/* couleur fond du menu (vert foncé) */
+
+.bgclr-03 {
+    background-color: rgba(10, 100, 4, 100)!important;
+}
+
+/* couleur fond de body) */
+
+.bgclr-04 {
+    background-color: rgba(255, 255, 255, 100);
+}
+
+@media (min-width: 576px) {
+    html {
+        font-size: 1.2rem;
+    }
+    h2 {
+        font-size: 1.5rem;
+    }
+    .spacer {
+        margin-bottom: 67px;
+    }
+
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 1.4rem;
+    }
+    h1,
+    .h1 {
+        font-size: 2.5rem;
+    }
+    .spacer {
+        margin-bottom: 78px;
+    }
+}
+
+@media (min-width: 1200px) {
+    html {
+        font-size: 1.6rem;
+    }
+    h1,
+    .h1 {
+        font-size: 3.5rem;
+    }
+    .spacer {
+        margin-bottom: 89px;
+    }
+}
