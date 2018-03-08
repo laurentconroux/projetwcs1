@@ -5,16 +5,16 @@
     <meta charset="utf-8">
     <meta lang="fr">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Bug Cookers</title>
+    <title>Bug Cookers | Contacts</title>
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="css/bugcookers.css">
 
 </head>
 
-<body class="container-fluid bgclr-02">
+<body class="bgclr-02">
 
-    <header>
+    <header class="container-fluid p-0">
         <div class="container spacer">
             <nav class="navbar navbar-expand-sm navbar-dark bgclr-03 fixed-top">
                 <a class="navbar-brand d-sm-none" href="index.html">Bug Cookers</a>
@@ -35,47 +35,44 @@
                 </div>
             </nav>
         </div>
-        <div>
+        <div class="bgclr-04 p-0">
             <img src="images/1920x400_BrigadeCuisine.jpg" class="img-fluid bannierehaut" alt="bienvenu chez BugCookers">
 
-            <h1 class="text-center justify-content-center clr-01"><span class="h1 d-none d-sm-inline-flex">Venez chez&nbsp;</span><span class="h1 d-inline-flex">Bug Cookers</span></h1>
+            <h1 class="text-center justify-content-center clr-01"><span class="h1 d-inline-flex">Nos bistrots&nbsp;</span><span class="h1 d-none d-sm-inline-flex">Bug Cookers</span></h1>
         </div>
 
     </header>
-    <section class="container center-block bgclr-04">
-        <h2>Nous contacter</h2>
-        <form action="contacts.html" method="post">
+    <section class="container center-block bgclr-04 mt-3 pt-1">
+        <form action="contacts.html" method="post" class="p-2">
+            <h2 class="clr-01">Nous contacter</h2>
             <div class="row">
-                <label class="col col-sm-4 col-md-2" for="name">Nom :</label>
-                <input class="col col-sm-8 col-md-10" type="text" id="name" name="user_name" placeholder="Nom" required>
+                <div class="col-xs-12 col-md-6">
+                    <label class="d-none" for="name">Nom :</label>
+                    <input class="form-control my-2" type="text" id="name" name="user_name" placeholder="Nom" required>
+                    <label class="d-none" for="email">Email :</label>
+                    <input class="form-control my-2" type="email" id="email" name="user_email" placeholder="Email" required>
+                    <label class="d-none" for="phone">Téléphone :</label>
+                    <input class="form-control my-2" type="phone" id="phone" name="user_phone" placeholder="Téléphone" required>
+                </div>
+                <div class="col-xs-12 col-md-6">
+                    <label class="d-none" for="message">Message :</label>
+                    <textarea class="form-control my-2" id="message" name="user_message" placeholder="Message"></textarea>
+                    <button class="btn btn-block text-white bgclr-01 my-2" type="submit">Envoyer votre message</button>
+                </div>
             </div>
-            <div>
-                <label for="email">Email :</label>
-                <input type="email" id="email" name="user_email" placeholder="Email" required>
-            </div>
-            <div>
-                <label for="phone">Téléphone :</label>
-                <input type="phone" id="phone" name="user_phone" placeholder="Téléphone" required>
-            </div>
-            <div>
-                <label for="message">Message :</label>
-                <textarea id="message" name="user_message" placeholder="Message"></textarea>
-            </div>
-            <div class="btn">
-                <button type="submit">Envoyer votre message</button>
-            </div>
+
         </form>
     </section>
-    <section class="container center-block bgclr-04">
-        <h2>Nos restaurants</h2>
+    <section class="container center-block bgclr-04 mt-3 pt-1">
+        <h2 class="clr-01">Nos restaurants</h2>
         <p>Les 10 restaurants, si possible sur une carte.</p>
     </section>
-    <section class="container center-block bgclr-04" id="mentionslegales">
-        <h2>Mentions Légales</h2>
+    <section class="container center-block bgclr-04 mt-3 pt-1" id="mentionslegales">
+        <h2 class="clr-01">Mentions Légales</h2>
         <p>dmclks,dkdm</p>
     </section>
-    <section class="container center-block bgclr-04" id="copyright">
-        <h2>Copyright</h2>
+    <section class="container center-block bgclr-04 mt-3 pt-1" id="copyright">
+        <h2 class="clr-01">Copyright</h2>
         <p>Wild Code School Dream Team Lyon PHP One 2018</p>
     </section>
     <footer class="">
