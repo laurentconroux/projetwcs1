@@ -6,19 +6,21 @@
     <meta lang="fr">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <title>Bug Cookers</title>
-    <!-- Latest compiled and minified CSS -->
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     
+    <link rel="stylesheet" href="css/gallerie.css">
+   
  <link rel="stylesheet" href="css/bugcookers.css">
- <link rel="stylesheet" href="css/gallerie.css">
+
 
 </head>
 
-    <header>
-        <div class="container spacer">
+    <header class="container-fluid p-0">
+               <div class="container spacer">
             <nav class="navbar navbar-expand-sm navbar-dark bgclr-03 fixed-top">
                 <a class="navbar-brand d-sm-none" href="index.html">Bug Cookers</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
@@ -38,7 +40,7 @@
                 </div>
             </nav>
         </div>
-        <div>
+        <div class="bgclr-04 p-0">
             <img src="images/1920x400_ChefsAuTravail.jpg" class="img-fluid bannierehaut" alt="bienvenu chez BugCookers">
 
             <h1 class="text-center justify-content-center clr-01"><span class="h1 d-inline-flex">Bienvenu</span><span class="h1 d-none d-sm-inline-flex">&nbsp;chez Bug Cookers</span></h1>
@@ -46,25 +48,26 @@
 
 
     </header>
-    
 
     
-<h2>Gallerie</h2>
-<div id="myBtnContainer">
-    <button class="btn active" onclick="filterSelection('all')"> Tous nos restaurants</button>
-    <button class="btn" onclick="filterSelection('Lyon')"> Lyon</button>
-    <button class="btn" onclick="filterSelection('Reims')"> Reims</button>
-    <button class="btn" onclick="filterSelection('Paris')"> Paris</button>
-    <button class="btn" onclick="filterSelection('Laloupe')"> La Loupe</button>
-    <button class="btn" onclick="filterSelection('Strasbourg')"> Strasbourg</button>
-    <button class="btn" onclick="filterSelection('Orléans')"> Orléans</button>
-    <button class="btn" onclick="filterSelection('Toulouse')"> Toulouse</button>
-    <button class="btn" onclick="filterSelection('Biarritz')"> Biarritz</button>
-    <button class="btn" onclick="filterSelection('Bordeaux')"> Bordeaux</button>
-    <button class="btn" onclick="filterSelection('Lille')"> Lille</button>
-</div>
 
-<!-- Portfolio Gallery Grid -->
+<section class= bgclr-02>   
+    <h2>Gallerie</h2>
+        <div id="myBtnContainer">
+            <button class="btn active" onclick="filterSelection('all')"> Tous nos restaurants</button>
+            <button class="btn" onclick="filterSelection('Lyon')"> Lyon</button>
+            <button class="btn" onclick="filterSelection('Reims')"> Reims</button>
+            <button class="btn" onclick="filterSelection('Paris')"> Paris</button>
+            <button class="btn" onclick="filterSelection('Laloupe')"> La Loupe</button>
+            <button class="btn" onclick="filterSelection('Strasbourg')"> Strasbourg</button>
+            <button class="btn" onclick="filterSelection('Orléans')"> Orléans</button>
+            <button class="btn" onclick="filterSelection('Toulouse')"> Toulouse</button>
+            <button class="btn" onclick="filterSelection('Biarritz')"> Biarritz</button>
+            <button class="btn" onclick="filterSelection('Bordeaux')"> Bordeaux</button>
+            <button class="btn" onclick="filterSelection('Lille')"> Lille</button>
+        </div>
+
+
 <div class="row">
   <div class="column Lyon">
     <div class="content">
@@ -249,24 +252,29 @@
     </div>
   </div>
     
-<!-- END GRID -->
+
 </div> 
-    <script type="text/javascript">
-  // Mon code Javascript
+     
+</section>    
+    
+    
+    
+<script type="text/javascript">
+
         
-  filterSelection("all") // Execute the function and show all columns
+  filterSelection("all") 
 function filterSelection(c) {
   var x, i;
   x = document.getElementsByClassName("column");
   if (c == "all") c = "";
-  // Add the "show" class (display:block) to the filtered elements, and remove the "show" class from the elements that are not selected
+  
   for (i = 0; i < x.length; i++) {
     w3RemoveClass(x[i], "show");
     if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
   }
 }
 
-// Show filtered elements
+
 function w3AddClass(element, name) {
   var i, arr1, arr2;
   arr1 = element.className.split(" ");
@@ -278,7 +286,7 @@ function w3AddClass(element, name) {
   }
 }
 
-// Hide elements that are not selected
+
 function w3RemoveClass(element, name) {
   var i, arr1, arr2;
   arr1 = element.className.split(" ");
@@ -291,7 +299,7 @@ function w3RemoveClass(element, name) {
   element.className = arr1.join(" ");
 }
 
-// Add active class to the current button (highlight it)
+
 var btnContainer = document.getElementById("myBtnContainer");
 var btns = btnContainer.getElementsByClassName("btn");
 for (var i = 0; i < btns.length; i++) {
