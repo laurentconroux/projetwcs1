@@ -2,12 +2,6 @@
     box-sizing: border-box;
 }
 
-body {
-    background-color: #f1f1f1;
-    padding: 20px;
-    font-family: Arial;
-}
-
 /* Center website */
 .main {
     max-width: 1000px;
@@ -59,12 +53,13 @@ h1 {
   border: none;
   outline: none;
   padding: 12px 16px;
-  background-color: white;
+  background-color: rgba(10, 100, 4, 100);
+  color: rgba(255,255,255,.75);
   cursor: pointer;
 }
 
 /* Add a grey background color on mouse-over */
 .btn:hover {
-  background-color: #ddd;
+  background-color: rgba(255, 84, 10, 100);
 }
 
