@@ -17,6 +17,7 @@ h1,
 .h1 {
     font-family: 'Gloria Hallelujah', cursive;
     line-height: 0;
+    margin-bottom: 0;
     font-size: 2rem;
     font-weight: 700;
 }
@@ -37,18 +38,23 @@ h2 {
 }
 
 .bannierehaut {
-    opacity: 0.5;
+    opacity: 0.6;
 }
 
-section {
+/* section {
     padding-top: 0.8rem;
-}
+    margin-top: 0.8rem;
+}*/
 
-/* couleur titres et fonds de boutons actifs (orange) */
+.col-xs-0 {
+    width: 4em;
+}
 
 .radiusse {
     border-radius: 0.25rem;
 }
+
+/* couleur titres et fonds de boutons actifs (orange) */
 
 .clr-01 {
     color: rgba(255, 84, 10, 100);
@@ -70,7 +76,7 @@ section {
     background-color: rgba(10, 100, 4, 100)!important;
 }
 
-/* couleur fond de body) */
+/* couleur fond blanc) */
 
 .bgclr-04 {
     background-color: rgba(255, 255, 255, 100);
