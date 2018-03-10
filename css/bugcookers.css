@@ -26,10 +26,14 @@ h1,
     line-height: 0;
 }
 
+span {
+    font-family: 'Gloria Hallelujah',
+}
+
 h2 {
     font-family: 'Gloria Hallelujah', cursive;
-    margin-top: 0.3rem;
-    margin-bottom: 0.5em;
+    /*margin-top: 0.3rem;
+    margin-bottom: 0.5em;*/
     font-size: 1.2rem;
 }
 
@@ -101,7 +105,7 @@ h2 {
     }
     h1,
     .h1 {
-        font-size: 2.5rem;
+        font-size: 2.2rem;
     }
     .spacer {
         margin-bottom: 78px;
@@ -114,16 +118,12 @@ h2 {
     }
     h1,
     .h1 {
-        font-size: 3.5rem;
+        font-size: 3.2rem;
+    }
+    h2 {
+        font-size: 2.0rem;
     }
     .spacer {
         margin-bottom: 89px;
     }
 }
-
-
-
-
-
-
-
