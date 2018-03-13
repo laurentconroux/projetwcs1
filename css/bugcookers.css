@@ -35,6 +35,11 @@ h2 {
     font-size: 1.2rem;
 }
 
+h3 {
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 1.1rem;
+}
+
 .spacer {
     margin-bottom: 56px;
 }
@@ -110,11 +115,14 @@ h2 {
     .spacer {
         margin-bottom: 78px;
     }
+    h3 {
+        font-size: 1.5rem;
+    }
 }
 
 @media (min-width: 1200px) {
     html {
-        font-size: 1.6rem;
+        font-size: 1.3rem;
     }
     h1,
     .h1 {
@@ -123,10 +131,36 @@ h2 {
     h2 {
         font-size: 2.0rem;
     }
+    
+    h3 {
+        font-size: 1.5rem;
+    }
+
     .spacer {
         margin-bottom: 89px;
     }
 }
+
+/* ------------------------------------------- */
+
+[class*="col-"] {
+  
+    border: 1px solid black;
+    border-radius: 6px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.list{
+    list-style-type: none;
+}
+
+
+
+
+
+
+
 
 
 
