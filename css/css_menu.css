@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Montserrat:400,700');
 
 html {
-    font-size: 1rem;
+    font-size: 0.5rem;
 }
 
 * {
@@ -26,10 +26,12 @@ h1,
     line-height: 0;
 }
 
+span {
+    font-family: 'Gloria Hallelujah',
+}
+
 h2 {
     font-family: 'Gloria Hallelujah', cursive;
-    margin-top: 0.3rem;
-    margin-bottom: 0.5em;
     font-size: 1.2rem;
 }
 
@@ -38,16 +40,18 @@ h2 {
 }
 
 .bannierehaut {
-    opacity: 0.6;
+    opacity: 0.6
 }
-
-/* section {
-    padding-top: 0.8rem;
-    margin-top: 0.8rem;
-}*/
 
 .col-xs-0 {
     width: 4em;
+}
+
+.col-menu {
+    border: 1px solid black;
+    border-radius: 6px;
+    line-height: 40px;
+    text-align: left;
 }
 
 .radiusse {
@@ -101,7 +105,7 @@ h2 {
     }
     h1,
     .h1 {
-        font-size: 2.5rem;
+        font-size: 2.2rem;
     }
     .spacer {
         margin-bottom: 78px;
@@ -114,13 +118,16 @@ h2 {
     }
     h1,
     .h1 {
-        font-size: 3.5rem;
+        font-size: 3.2rem;
+    }
+    h2 {
+        font-size: 2.0rem;
     }
     .spacer {
         margin-bottom: 89px;
     }
 }
-
+/* ------------------------------------------------------ */
 [class*="col-"] {
   
   border: 1px solid black;
@@ -128,6 +135,12 @@ h2 {
   line-height: 40px;
   text-align: left;
 }
+
+.img_apero{
+    border: 1px white solid;
+}
+
+
 
 
 
