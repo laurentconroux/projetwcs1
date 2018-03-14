@@ -1,1 +1,21 @@
+.block2 p li {
+	font-size       : 0.8rem;
+	color           : green;
+}
 
+.block2 h2 {
+	text-align: center;
+}
+
+.carte{
+	
+	display: flex;
+	background-image: url('../images/oldpaper.jpg');
+	background-size : cover;
+	border: 1px black solid;
+	margin-top: 5px;
+}
+
+.block2 img{
+
+}
