@@ -23,6 +23,26 @@ html {
     background-image: url('../images/bandeau_notre_concept.jpg');
 }
 
+.pageMenu {
+    background-image: url('../images/bandeau_notre_menu.jpg');
+}
+
+.pagePhotos {
+    background-image: url('../images/bandeau_notre_gallerie_photo.jpg');
+}
+
+.pageHistoire {
+    background-image: url('../images/bandeau_notre_histoire.jpg');
+}
+
+.pageRestaurants {
+    background-image: url('../images/bandeau_nos_restaurants.jpg');
+}
+
+.pageMentionsLegales {
+    background-image: url('../images/bandeau_mentions_legales .jpg');
+}
+
 .titleoverimage {
     background-color: rgba(255, 255, 255, 0.6);
     border-radius: 15px;
