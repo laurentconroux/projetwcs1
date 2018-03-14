@@ -29,6 +29,10 @@ h1 {
     display: none; /* Hide columns by default */
 }
 
+.column:hover {
+    border: 1px solid #777;
+}
+
 /* Clear floats after rows */
 .row:after {
     content: "";
