@@ -37,7 +37,8 @@ h1,
     font-weight: 700;
 }
 
-h2 {
+h2,
+.h2 {
     font-family: 'Courgette', cursive;
     font-size: 1.2rem;
 }
@@ -64,7 +65,14 @@ h3 {
 
 .footeur {
     font-size: 0.8rem;
-    /* text-decoration: none; */
+}
+
+.footeur > a {
+    text-decoration: underline;
+}
+
+.footeur:hover {
+    color: rgba(173, 212, 92, 100);
 }
 
 /* couleur titres et fonds de boutons actifs (orange) */
@@ -107,7 +115,7 @@ h3 {
         font-size: 1.5rem;
     }
     .spacer {
-        margin-bottom: 66px;
+        margin-bottom: 67px;
     }
 
 }
@@ -145,7 +153,7 @@ h3 {
     }
 
     .spacer {
-        margin-bottom: 89px;
+        margin-bottom: 78px;
     }
 }
 
@@ -153,11 +161,11 @@ h3 {
     list-style-type: none;
 }
 
-/* temporaire uniquement pour les tests sur le menu */
+/* temporaire uniquement pour les tests sur le menu 
 
 [class*="col-"] {
     border: 1px solid black;
     border-radius: 6px;
     line-height: 40px;
-    text-align: center;
 }
+*/
