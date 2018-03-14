@@ -8,26 +8,32 @@ html {
     font-family: 'Montserrat', sans-serif;
 }
 
-h1 {
-    position: relative;
-    top: -1.1em;
+.spacer {
+    margin-bottom: 56px;
+}
+
+.bannierehaut {
+    width: 100vw;
+    height: 15.625vw;
+}
+
+.pageContexte {
+    background-image: url('../images/bandeau_notre_concept.jpg');
+}
+
+.titleoverimage {
+    background-color: #ffffff;
+    opacity: 0.6;
+    border-radius: 15px;
 }
 
 h1,
 .h1 {
     font-family: 'Gloria Hallelujah', cursive;
-    line-height: 0;
     margin-bottom: 0;
     font-size: 2rem;
     font-weight: 700;
-}
-
-.h1 {
-    line-height: 0;
-}
-
-span {
-    font-family: 'Gloria Hallelujah',
+    opacity: 1;
 }
 
 h2 {
@@ -38,14 +44,6 @@ h2 {
 h3 {
     font-family: 'Gloria Hallelujah', cursive;
     font-size: 1.1rem;
-}
-
-.spacer {
-    margin-bottom: 56px;
-}
-
-.bannierehaut {
-    opacity: 0.6
 }
 
 .col-xs-0 {
@@ -131,7 +129,7 @@ h3 {
     h2 {
         font-size: 2.0rem;
     }
-    
+
     h3 {
         font-size: 1.5rem;
     }
@@ -141,26 +139,15 @@ h3 {
     }
 }
 
-/* ------------------------------------------- */
+.list {
+    list-style-type: none;
+}
 
-[class*="col-"] {
-  
+/* temporaire uniquement pour les tests sur le menu */
+
+[clas s*="col-"] {
     border: 1px solid black;
     border-radius: 6px;
     line-height: 40px;
     text-align: center;
 }
-
-.list{
-    list-style-type: none;
-}
-
-
-
-
-
-
-
-
-
-
