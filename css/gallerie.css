@@ -29,7 +29,7 @@ h1 {
     display: none; /* Hide columns by default */
 }
 
-.column:hover {
+.gallery:hover {
     border: 1px solid #777;
 }
 
@@ -42,7 +42,7 @@ h1 {
 
 /* Content */
 .content {
-    background-color: white;
+    background-color: rgba(10, 100, 4, 100);
     padding: 10px;
 }
 
@@ -72,4 +72,8 @@ h1 {
 
 .btn{
     text-align: center;
+}
+.container{
+    border-width: 1rem;
+    border-color: rgba(255, 84, 10, 100);
 }
