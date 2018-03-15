@@ -8,6 +8,14 @@ html {
     font-family: 'Montserrat', sans-serif;
 }
 
+.borderBug {
+    border: solid 2px rgb(10, 100, 4);
+}
+
+.lineHeightSmall {
+    line-height: 1;
+}
+
 .spacer {
     margin-bottom: 56px;
 }
