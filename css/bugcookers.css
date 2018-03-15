@@ -246,7 +246,7 @@ h3,
 .biarritz:focus,
 .bordeaux:focus,
 .lille:focus {
-    background-color: rgba(255, 84, 10, 100);
+    git add . background-color: rgba(255, 84, 10, 100);
 }
 
 .active {
@@ -268,4 +268,12 @@ h3,
 
 .btn {
     text-align: center;
+}
+
+/* css de la page notre histoire */
+
+.cuisto {
+    background-color: lightgray;
+    border-radius: 15px;
+    margin-bottom: 3rem;
 }
