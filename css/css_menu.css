@@ -16,17 +16,25 @@
 	text-align: center;
 }
 
+
+
+.hiderow {
+
+    display: none; 
+}
+
+
 .show {
-    display: block;
+    display: flex;
 }
 
-.row {
-	
-    display: none; /* Hide columns by default */
+.btn:hover {
+  background-color: rgba(255, 84, 10, 100);
 }
 
-
-
+.all:focus, .lyon:focus, .reims:focus, .paris:focus, .loupe:focus, .strasbourg:focus, .orleans:focus, .toulouse:focus, .biarritz:focus, .bordeaux:focus, .lille:focus{
+      background-color: rgba(255, 84, 10, 100);
+}
 
 /*
 [class*="col-"] {
