@@ -44,7 +44,7 @@
         <div class="row d-flex mx-2 my-1 p-2 no-gutters">
             <div class="col-md-12">
                 <div class="row mx-2 my-0 p-1">
-                    <h2 class="offset-md-2 col-md-10 my-0 clr-01 p-0 text-center">Nos menus</h2>
+                    <h2 class="col-md-12 my-0 mb-1 clr-01 p-0 text-center">Le menu commun à tous les restaurants</h2>
                 </div>
 
                 <div class="row d-flex carte mx-2 my-2 p-2 no-gutters">
@@ -69,14 +69,13 @@
                     <div class="col-md-3 col-lg-2"><img class="img-fluid img-thumbnail rounded" src="images/menu_plat_3.jpg" alt="apero grillons" title="Apéro !" /></div>
                     <div class="col-md-9 col-lg-10 pl-4">
                         <h3>Pour les gourmands !</h3>
-                        <p>Entrée : Salade de papaye verte</br>Plat : Sauté de Scorpion à l’oignon</br>Déssert : fondant aux scarabé
+                        <p>Entrée : Salade de vers de papaye verte</br>Plat : Sauté de Scorpion à l’oignon</br>Déssert : fondant aux scarabé
                         </p>
                     </div>
                 </div>
                 <div class="row d-flex mx-2 my-1 p-2 no-gutters">
-                    <h2 class="offset-md-2 col-md-10 my-0 clr-01 p-0 text-center">Les spécialités</h2>
-                    <div id="myBtnContainer" class="row d-inline-flex justify-content-center p-0 m-0 py-1 px-2">
-                        <button class="btn all m-1 " onclick="filterSelection('all')"> Tous nos restaurants</button>
+                    <h2 class="col-md-12 my-0 clr-01 p-0 text-center">La spécialité disponible sur place </h2>
+                    <div id="myBtnContainer" class="row d-inline-flex justify-content-center p-0 mt-3 py-1 px-2">
                         <button class="btn lyon m-1" onclick="filterSelection('Lyon')"> Lyon</button>
                         <button class="btn reims m-1" onclick="filterSelection('Reims')"> Reims</button>
                         <button class="btn paris m-1" onclick="filterSelection('Paris')"> Paris</button>
@@ -183,8 +182,6 @@
     <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
 
     <script type="text/javascript">
-
-        filterSelection("all")
 
         function filterSelection(c) {
             var x, i;
