@@ -1,29 +1,50 @@
-.block2 p li {
-    font-size: 0.8rem;
-    color: green;
+.block2 p {
+	font-size: 0.8rem;
+	
 }
 
-.carte {
-    background-image: url('../images/oldpaper.jpg');
-    background-size: cover;
-    border: 1px black solid;
+.block2{
+	border-left : 1px black solid;
+	border-right: 1px black solid;
 }
-
 
 .carte{
 	
 	background: rgba(173, 212, 92, 100);
-	border: 1px black solid;
+	border    : 1px black solid;
 	margin-top: 5px;
 	text-align: center;
-	box-shadow: 3px 3px 0px 0px rgba(173, 212, 92, 50);
 }
 
-.block2 img {
-	margin-top: 15px;
-	margin-bottom: 15px;
-	box-shadow: 3px 3px 0px 0px rgba(173, 212, 92, 50);
+
+
+.hiderow {
+
+    display: none; 
 }
 
-.block2 img {}
 
+.show {
+    display: flex;
+}
+
+.btn:hover {
+  background-color: rgba(255, 84, 10, 100);
+}
+
+.all:focus, .lyon:focus, .reims:focus, .paris:focus, .loupe:focus, .strasbourg:focus, .orleans:focus, .toulouse:focus, .biarritz:focus, .bordeaux:focus, .lille:focus{
+      background-color: rgba(255, 84, 10, 100);
+}
+
+.active{
+    background-color: rgba(255, 84, 10, 100);
+}
+
+/*
+[class*="col-"] {
+    border: 1px solid black;
+    border-radius: 6px;
+    line-height: 40px;
+}
+
+*/
